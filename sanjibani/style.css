@@ -1,0 +1,51 @@
+
+
+header{
+    background-color: green;
+    border:2px solid white;
+    padding:10px;
+    margin:10px;
+    color:white;
+    font-family: "comic sans ms";
+   border-radius:6px;
+    text-align:center;
+    
+}
+
+.btn1,.btn2,.btn3,.btn4 {
+      background-color: green;
+    border:2px solid white;
+     color:white;
+     transition-delay: 0.08s;
+
+     
+}
+     .btn4{
+        text-align: center;
+     }
+
+ 
+ .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover{
+     color:blue;
+     background-color: white;
+     border:2px solid green;
+     animation: flipv;
+ }
+ body{
+    background: url(1.jpg);
+ }
+ .logo{
+     border: solid white 5px;
+ } 
+ .class{
+     height: 500%;
+     width: 500%;
+     background-color: white;
+     color: yellowgreen;
+ }
+ 
+ 
+
+  
+
+ 

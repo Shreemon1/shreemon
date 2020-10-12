@@ -1,0 +1,138 @@
+b{
+   
+    margin: 30px;
+    padding:10px;
+}
+body{
+    background: url(1.jpg);
+}
+   .contact-form{ width: 50%;
+    max-width: 600px;
+    background: whitesmoke;
+    border:solid 1px;
+    position:absolute;
+    top: 80%;
+    left:50%;
+    
+   padding:30px 40px;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "montserrat",sans-serif;
+} 
+.contact-form h1{
+    font-weight: 100;
+    padding:0px 0px;
+    color: indigo;
+    
+}
+.txtb{
+    border:1px solid indigo;
+    margin:8px 0;
+    padding:12px 18px;
+    border-radius: 8px;
+}
+.txtb label{
+    display:block;
+    margin:5px;
+}
+.button{
+
+    padding:1% 47%;
+    color: white;
+    background-color: indigo;
+    top: 3px;
+    border: 2px white solid;
+    transition-delay: 0.08s;
+    
+   
+}
+
+.txtb input{
+    box-sizing: 1% 30%;
+}
+.txtb textarea{
+    padding: 5px 100px;
+}
+header{
+    background-color: green;
+    padding:10px;
+    color:white;
+    font-family:"comic sans ms";
+    border: white 2px solid;
+
+}
+.abc button{
+    color: white;
+    background-color: green;
+    margin-top: 5px;
+    border-color: white;
+   transition-delay: 0.08s;
+   padding:2px 5px;
+   border:2px solid;
+   transition: 0.08s ;
+}
+
+.mr{
+     font-weight: 100;
+     font-family:"montserrat",sans-serif ;
+     margin-top: 10px;
+}
+.abc button:hover{
+    color:blue;
+    background-color: white;
+}
+.txtb button:hover{
+    color:indigo;
+    background-color: white;
+    border-color: indigo;
+}
+.tod{ width:12%;
+    font-weight: 200;
+    font-family:"comic sans ms";
+    margin-left:  330px;
+    color: blue;
+    margin-bottom:0;
+    margin-top: -97px;
+}
+.sm a{
+    display: inline-block;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color:blue;
+    margin: 0 16px;
+    transition: .4s linear;
+    position: relative;
+    }
+    
+    .sm a::before, .sm a::after{
+        content:"";
+        position: absolute;
+        box-sizing:border-box ;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top:0;
+        transition: .4s linear;
+    }
+    .sm a:hover{
+    transform:scale(.8)
+    }
+    .sm a:hover::before{
+        border-left: 4px solid;
+        border-right: 4px solid;
+        transform: skewY(20deg);
+    }
+    .sm a:hover::after{
+        border-top: 4px solid;
+        border-bottom: 4px solid;
+        transform: skewX(20deg);
+    }
+    .sm{
+        margin-left:500px;
+    }
